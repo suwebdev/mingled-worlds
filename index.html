@@ -61,16 +61,22 @@
       </div>
     </div>
     
-    <div class="container">
+    <div id="adv-search-modal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
       <div class="row">
-        <div class="col-md-4">
-          <h2>Search for Poetry by Genre</h2>
+        <div class="modal-content">
+          <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4>Search for Poetry by Genre</h4>
+          </div>
+          <div class="modal-body">
           <form role="search" action="submit">
               <label for="search-field">
                 <input type="search" placeholder="What would you like to search for?">
               </label>
               <label for="genre-field">
                 <select name="genre" id="genre-category">
+                    <option value="allegory">----</option>
                     <option value="allegory">allegory</option>
                     <option value="aubade">aubade</option>
                     <option value="ballad">ballad</option>
@@ -107,10 +113,13 @@
                     <option value="verse epistle">verse epistle</option>
                 </select>
               </label>
+              <button id='adv-search-btn' type="submit">Search</button>
             </form>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
     <div class="container">
       <!-- Example row of columns -->

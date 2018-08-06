@@ -1,14 +1,22 @@
+@media (min-width: 769px) {
+.buttonTop {
+    display:none;
+    }
+}
 
+.buttonTop a {
+    color:white !important;
+    text-decoration:none;
+   
+}
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.buttonTop {
+    margin-top: 10px;    
+}
 
-
-
-
-
-
+a.navbar-brand{
+    color:white !important;
+}
 
 
 

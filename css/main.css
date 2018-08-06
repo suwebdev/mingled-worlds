@@ -1,20 +1,15 @@
+body {
+    background-image: url('../images/Poetry-Background.jpg');
+}
 
+.jumbotron {
+    background-color: transparent;
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.coloredBackground {
+    background: rgba(243, 213, 213, 0.5);
+}
 
 
 

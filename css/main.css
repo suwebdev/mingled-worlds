@@ -4,7 +4,10 @@
    Author's custom styles
    ========================================================================== */
 
-
+.poem-container {
+   width: 850px;
+   word-wrap: break-word;
+}
 
 
 
